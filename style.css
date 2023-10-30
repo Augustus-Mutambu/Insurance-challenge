@@ -1,0 +1,35 @@
+.page{
+    width: 50%;
+    height: auto;
+    align-content: center;
+}
+.midnav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.first-photo>img{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    
+    
+}
+.navbar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.midphoto{
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 100px;
+}
