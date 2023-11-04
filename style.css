@@ -1,35 +1,193 @@
-.page{
-    width: 50%;
-    height: auto;
-    align-content: center;
-}
-.midnav{
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.first-photo>img{
-    width: 50%;
-    height: auto;
-    position: absolute;
-    
-    
+body {
+  background-color: lightgrey;
 }
-.navbar{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: relative;
+
+
+.first-photo {
+  background-image: url(./hero.png);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  /* text-align: center; */
+}
+.leftnav {
+  color: white;
+  padding: 15px;
 }
 .midphoto{
-    color: white;
-    text-align: center;
-    position: relative;
+  color: white;
+}
+.midnav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 15px;
+  color: white;
+}
+.rightnav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button{
+  padding: 10px;
+  color: white;
+}
+
+.button1 >button {
+  padding: 5px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+.midphoto{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    padding: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 80px;
+}
+.midphoto-description{
+    padding : 10px 0px;
+}
+
+.middle-objects{
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#btn1{
+  padding: 6px;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+}
+#btn2{
+    padding: 6px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+}
+.firstobject{
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+
+}
+.txt{
+  font-weight: bold;
+  font-size: 14px;
+}
+.thirdobject{
+  background-color: blue;
+  text-align: left;
+  color: white;
+  padding: 15px;
+  
+}
+.txt2{
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+.fourthobject{
+  box-sizing: border-box;
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  background-color: white;
+  padding: 80px;
+}
+#head2{
+  text-align: center;
+
+}
+#industry{
+  font-weight: bolder;
+  font-size: 30px;
+}
+.photos{
+ 
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  
+}
+.photo1{
+ box-sizing: border-box;
+  background-color: white;
+  padding: 40px;
+}
+
+.media{
+  display: flex;
+  justify-content: space-around;
+}
+.bottomphoto >img{
+  width: 200px;
+  height: 100px;
+}
+.lastphoto{
+  background-color: rgb(4, 4, 33);
+  color: white;
+display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 100px;
+ 
+}
+#hding{
+  font-weight: bolder;
+  font-size: 35px;
+}
+.finalpic > img{
+  width: 200px;
+  height: 350px;
+}
+
+.final{
+  display: flex;
+  margin: 50px;
+}
+.final-text{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.form > button{
+  width: 300px;
+  padding: 5px;
+  background-color: lightgray;
+}
+.btn111{
+  background-color: blue;
+ 
+}
+.final{
+  gap: 25px;
+}
+.finalbtn{
+  padding: 6px;
+  background-color: blue;
+  color: white;
 }
