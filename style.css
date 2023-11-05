@@ -11,7 +11,7 @@ body {
 
 .first-photo {
   background-image: url(./hero.png);
-  height: 50vh;
+  height: 80vh;
   background-position: center;
   background-size: cover;
 }
@@ -25,6 +25,11 @@ body {
 .leftnav {
   color: white;
   padding: 15px;
+}
+.txt7{
+  font-weight: bolder;
+  font-size: 35px;
+
 }
 .midphoto{
   color: white;
@@ -174,13 +179,16 @@ display: flex;
   justify-content: space-between;
   margin: 50px;
 }
-.form > button{
+.form > input{
   width: 300px;
   padding: 5px;
   background-color: lightgray;
 }
 .btn111{
+    width: 300px;
+  padding: 5px;
   background-color: blue;
+  color: white;
  
 }
 .final{
