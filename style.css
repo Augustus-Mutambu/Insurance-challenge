@@ -20,7 +20,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0px 30px;
-  /* text-align: center; */
 }
 .leftnav {
   color: white;
@@ -30,6 +29,14 @@ body {
   font-weight: bolder;
   font-size: 35px;
 
+}
+#btn1:hover{
+  color: white;
+  background-color: blue;
+}
+#btn2:hover{
+  color: white;
+  background-color: blue;
 }
 .midphoto{
   color: white;
@@ -56,6 +63,7 @@ body {
   text-decoration: none;
   background-color: blue;
   color: white;
+  border: 0px;
 }
 .midphoto{
     display: flex;
@@ -75,19 +83,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
+    
+  
+
 }
 #btn1{
   padding: 6px;
   border-radius: 15px;
-  background-color: blue;
+  background-color: transparent;
   color: white;
+  border: 0px;
 }
 #btn2{
     padding: 6px;
   border-radius: 15px;
   background-color: transparent;
   color: white;
+  border: 0px;
 }
 .firstobject{
   text-align: left;
@@ -100,12 +113,25 @@ body {
   font-size: 14px;
 }
 .thirdobject{
-  background-color: blue;
+  background-color: white;
   text-align: left;
-  color: white;
+  color: black;
   padding: 15px;
   
 }
+.thirdobject:hover{
+  color: white;
+  background-color: blue;
+}
+.thirdobject:hover{
+  color: white;
+  background-color: blue;
+}
+.firstobject:hover{
+  color: white;
+  background-color: blue;
+}
+
 .txt2{
   font-weight: bold;
   font-size: 14px;
@@ -159,6 +185,7 @@ display: flex;
   justify-content: center;
   padding: 50px;
   gap: 100px;
+  background-size: 90vh;
  
 }
 #hding{
@@ -192,10 +219,90 @@ display: flex;
  
 }
 .final{
+  box-sizing: border-box;
   gap: 25px;
+  margin-top: -50px;
+  background-color: white;
+  margin-right: 700px;
 }
 .finalbtn{
   padding: 6px;
   background-color: blue;
   color: white;
+}
+.subscribe{
+ background-color: blue ;
+ padding: 30px;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+}
+#email{
+  background-color: white;
+}
+.emailbtn{
+  background-color: blue;
+}
+.pricing{
+  display: flex;
+  flex-direction: column;
+}
+#heading{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+#txt1{
+  color: gray;
+  text-align: center;
+}
+.free{
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 208, 255);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.free:hover{
+  color: white;
+  background-color: rgb(5, 5, 38);
+  width: 250px;
+  height: 350px;
+}
+.cash{
+  font-size: 25px;
+  font-weight:bolder;
+  color: skyblue;
+  align-self: center;
+}
+.btn3{
+  background-color: rgb(0, 208, 255);
+  color: white;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 0px;
+  border-radius: 10px;
+}
+.cash{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.pricings{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.contacts{
+  box-sizing: border-box;
+  color: gray;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
